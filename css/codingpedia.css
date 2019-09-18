@@ -10,8 +10,8 @@ html {
 }
 
 body {
-    width: 100%;
     margin: 0 0 100px;
+    padding: 25px;
 }
 
 header {
@@ -70,31 +70,28 @@ main .wrapper form {
 main .wrapper form label {
     margin-left: 0px;
     font-size: 25px;
+    margin-top: 2em;
     line-height: 20px;
-    text-align: right;
 }
 
 main .wrapper form input {
-    left: 30%;
+    right: 600px;
     position: absolute;
     width: 30%;
+    padding-bottom: 20px;
 }
 
 main .wrapper form select {
-    left: 30%;
+    right: 600px;
     position: absolute;
     width: 31%;
-}
-
-main .wrapper form textarea {
-    left: 30%;
 }
 
 main .wrapper form button {
     width: 250px;
     margin-top: 40px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 1055px;
 }
 
 main aside p {
@@ -204,241 +201,14 @@ table tbody tr td {
 }
 
 
-/*
-* Day 03 css
-*/
-
-
-/* exo 2 */
-
-body .container {
-    width: 100%;
-    border-style: solid;
-    border-color: transparent;
-    border-width: 20px;
-    box-sizing: border-box;
-}
-
-
-/* exo 3 */
-
-body .container #lin {
-    height: 150px;
-    background-image: linear-gradient(35deg, #ADD8E6, #00008b)
-}
-
-
-/* exo 4 */
-
-#para_exo3::first-letter {
-    width: 100%;
-    background-color: gray;
-    font-size: 24px;
-}
-
-
-/* exo 5 */
-
-.container-exo-five {
-    width: 100%;
-    display: table;
-}
-
-.container-exo-five .block {
-    border-style: solid;
-    border-width: 50px;
-    border-color: green;
-    display: table-cell;
-    height: 300px;
-    width: 30%;
-}
-
-#f001 {
-    background-color: red;
-}
-
-#f002 {
-    background-color: blue;
-}
-
-
-/* exo 6 */
-
-.uncomon-font {
-    font-family: Satisfy;
-}
-
-
-/* exo 7 */
-
-.container-exo-7 {
-    width: 100%;
-}
-
-.container-exo-7 .mybutton {
-    /* exo 5 */
-    width: 20%;
-    height: 50px;
-    text-align: center;
-    border-style: solid;
-    border-width: 4px;
-    border-color: yellow;
-    border-radius: 8px;
-}
-
-
-/* exo 8 */
-
-.container-exo-8 {
-    width: 100%;
-    height: 150px;
-}
-
-.container-exo-8 p {
-    font-size: 25px;
-    text-shadow: 2px 2px #FF0000;
-}
-
-
-/* exo 9 */
-
-.container-exo-9 {
-    width: 100%;
-    height: 150px;
-    background-color: red;
-}
-
-.container-exo-9 div {
-    display: inline-block;
-    width: 30%;
-    height: 100%;
-}
-
-.container-exo-9 #block1 {
-    background-color: orange !important;
-    width: 30%;
-}
-
-.container-exo-9 #block2 {
-    background-color: white !important;
-    border-style: solid;
-    border-width: 10px;
-    box-sizing: border-box;
-    border-color: yellow;
-    padding: 8px 8px 8px 8px;
-    width: 30%;
-}
-
-.container-exo-9 #block3 {
-    background-color: black !important;
-    padding: 32px 32px 32px 32px;
-    box-sizing: border-box;
-    width: 30%;
-}
-
-
-/* exo 10 */
-
-.container-exo-10 {
-    margin-top: 50px;
-    width: 500px;
-    height: 200px;
-    background-color: transparent;
-    display: table;
-}
-
-.container-exo-10 p {
-    display: table-cell;
-    text-transform: uppercase;
-}
-
-
-/* exo 11 */
-
-.container-exo-11 {
-    width: 400px;
-    height: 400px;
-    position: relative;
-}
-
-.container-exo-11 .under {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-}
-
-.container-exo-11 .over {
-    position: absolute;
-    z-index: 6;
-    height: 120px;
-    bottom: 0;
-    right: 0;
-}
-
-
-/* exo 12 */
-
-.container-exo-12 {
-    width: 100%;
-}
-
-.container-exo-12 ul li::before {
-    content: "Element "
-}
-
-.container-exo-12 ul li::after {
-    content: " End of sentence"
-}
-
-
-/* exo 13 */
-
-.container-exo-13 {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation: mymove 5s;
-    transition-duration: 5s;
-}
-
-@keyframes mymove {
-    0% {
-        top: 0px;
-        left: 0;
-    }
-    25% {
-        top: 300px;
-        left: 0;
-        background-color: green;
-    }
-    50% {
-        top: 300px;
-        left: 300px;
-        background-color: blue;
-    }
-    75% {
-        top: 0;
-        left: 300px;
-        background-color: yellow;
-    }
-    100% {
-        top: 0;
-        right: 300px;
-        left: 0;
-        background-color: red;
-    }
-}
-
-
-/*
+/**
+*
 * FOOTER
 *
 */
 
 footer {
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -448,7 +218,6 @@ footer {
     border-style: solid;
     border-width: 4px;
     border-color: black;
-    margin-top: 20%;
 }
 
 footer aside ul {

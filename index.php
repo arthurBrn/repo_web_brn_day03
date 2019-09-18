@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <?php include 'inc/head.php' ?>
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <?php // include '/var/www/html/inc/navbar.html'
+        ?>
+        <h1>Bienvenue
+            <!-- That will became a php include to put it on every pages -->
+            <span>
+                <a href="../index.php">Home</a>
+                <a href="php.php">PHP</a>
+                <a href="sql.php">SQL</a>
+            </span>
+        </h1>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <p class="first-paragraph left-bordered-and-big">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam suscipit quibusdam quisquam maxime asperiores temporibus magnam labore pariatur delectus, ut, excepturi vero quo omnis nulla ducimus enim accusamus nobis, dolore unde incidunt deleniti eaque
+                eveniet! Ratione, illum impedit architecto nemo autem quidem necessitatibus officia, laboriosam est, porro dolores recusandae libero.
+            </p>
+            <br>
+            <form action="#">
+                <label for="name">Name</label>
+                <input class="input" id="name" type="text" name="name" required> <br> <br>
+                <label for="first_name">First name</label>
+                <input class="input" id="first_name" type="text" name="first_name" required> <br><br>
+                <label for="email">Email</label>
+                <input class="input" id="email" type="text" name="email" required><br><br>
+                <label for="age">Age</label>
+                <input class="input" id="age" type="number" name="age" min="3" max="99"><br><br>
+                <label for="phone">Phone</label>
+                <input class="input" id="phone" type="number" name="phone" min="10" max="10"><br><br>
+                <label for="sex">Sex</label>
+                <select name="sex" id="sex">
+                    <option value="male" selected="selected"> Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br> <br>
+                <label for="hair_color">Hair color</label>
+                <input class="input" id="hair_color" type="color" name="hairColor" value="#e66465"><br><br>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="Date" required><br><br>
+                <label for="technology">Technology</label>
+                <select name="selector_tech" id="technology">
+                    <option value="php">Php</option>
+                    <option value="SQL">SQL</option>
+                    <option value="Java">Java</option>
+                    <option value="Kotlin">Kotlin</option>
+                </select>
+                <br>
+                <label for="question">Question</label>
+                <textarea name="question" id="question"></textarea><br><br>
+
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+        <aside>
+            <!-- second-paragraph right-bordered-and-small -->
+            <p>
+                My name is Arthur, I've been studying IT for four years....
+            </p>
+        </aside>
+    </main>
+    <!-- TP03 exo 2 -->
+    <div class="container">
+        <p>I have 40 pixels less in my container.</p>
+    </div>
+    <!-- TP03 exo 3 -->
+    <div class="container">
+        <div id="lin">
+
+        </div>
+    </div>
+    <div class="container">
+        <p id="para_exo3">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <!-- TP03 exo 5 -->
+    <div class="container-exo-five">
+        <div class="block" id="foobar" value="f001">
+            <div id="f001">ola</div>
+        </div> <!-- foobar value f001 -->
+        <div class="block" id="foobar" value="f002">
+            <div id="f002">ola</div>
+        </div> <!-- foobar value f002 -->
+        <div class="block"></div>
+    </div>
+    <!-- TP03 exo 6 -->
+    <div>
+        <p> Lorem ipsum dolor sit amet. <span class="uncomon-font">I am an uncommon font</span></p>
+    </div>
+    <!-- TP03 exo 7 -->
+    <div class="container-exo-7">
+        <button class="mybutton">
+            Send
+        </button>
+    </div>
+    <!-- TP03 exo 8 -->
+    <div class="container-exo-8">
+        <p>I have a customized text</p>
+    </div>
+
+    <!-- TP03 exo 9 -->
+    <div class="container-exo-9">
+        <div id="block1"></div>
+        <div id="block2"></div>
+        <div id="block3"></div>
+    </div>
+
+    <!-- TP03 exo 10 -->
+    <div class="container-exo-10">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti quas assumenda commodi laborum error?</p>
+        <p>Nostrum aut hic ducimus omnis delectus laudantium officiis totam cum velit. Laudantium voluptatum ut quibusdam.</p>
+        <p>Rerum beatae soluta dolores, in voluptatem, quaerat culpa fugiat consectetur reprehenderit assumenda aperiam, ducimus iure?</p>
+    </div>
+
+    <!-- TP03 exo 11 -->
+    <div class="container-exo-11">
+        <img src="inc/images/flower.gif" width="100%" height="100%" class="under">
+        <img src="inc/images/paper.gif" class="over">
+    </div>
+
+    <!-- TP03 exo 12 -->
+    <div class="container-exo-12">
+        <ul>
+            <li>some text</li>
+            <li>some text</li>
+            <li>some text</li>
+        </ul>
+    </div>
+
+    <!-- TP03 exo 13 -->
+    <div class="container-exo-13">
+        
+    </div>
+
+</body>
+<?php include 'inc/footer.php' ?>
+
+</html>

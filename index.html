@@ -2,14 +2,20 @@
 <html lang="fr">
 
 <head>
-    <?php include 'inc/head.php' ?>
+    <!-- <link rel="stylesheet" href="../css/snow-white.css"> -->
+    <link rel="stylesheet" href="css/codingpedia.css">
+    <link rel="stylesheet" href="css/codingpedia_responsive.css">
+    <meta charset="UTF-8">
+    <!-- Viewport for responsive content -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Satisfy font TP3 EXO6-->
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <title>Index</title>
 </head>
 
 <body>
     <header>
-        <?php // include '/var/www/html/inc/navbar.html'
-        ?>
         <h1>Bienvenue
             <!-- That will became a php include to put it on every pages -->
             <span>
@@ -74,7 +80,7 @@
     </main>
     <!-- TP03 exo 2 -->
     <div class="container">
-        <p>I have 40 pixels less in my container.</p>
+        <q>I have 40 pixels less in my container.</q>
     </div>
     <!-- TP03 exo 3 -->
     <div class="container">
@@ -82,6 +88,7 @@
 
         </div>
     </div>
+    <!-- TP03 exo 4 -->
     <div class="container">
         <p id="para_exo3">Lorem ipsum dolor sit amet.</p>
     </div>
@@ -89,10 +96,12 @@
     <div class="container-exo-five">
         <div class="block" id="foobar" value="f001">
             <div id="f001">ola</div>
-        </div> <!-- foobar value f001 -->
+        </div>
+        <!-- foobar value f001 -->
         <div class="block" id="foobar" value="f002">
             <div id="f002">ola</div>
-        </div> <!-- foobar value f002 -->
+        </div>
+        <!-- foobar value f002 -->
         <div class="block"></div>
     </div>
     <!-- TP03 exo 6 -->
@@ -141,10 +150,22 @@
 
     <!-- TP03 exo 13 -->
     <div class="container-exo-13">
-        
+        <div id="square">
+
+        </div>
     </div>
 
+    <!-- FOOTER -->
+    <footer>
+        <aside>
+            <ul>
+                <li>Name</li>
+                <li>First name</li>
+                <li>Adresse</li>
+                <li>Tel</li>
+            </ul>
+        </aside>
+    </footer>
 </body>
-<?php include 'inc/footer.php' ?>
 
 </html>

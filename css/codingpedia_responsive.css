@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 600px) {
     body {
-        background-color: white;
+        background-color: red;
         width: 100%;
     }
     header {
@@ -28,6 +28,9 @@
         border-width: 2px;
         font-size: 15px;
     }
+    /**
+    *   FORM
+    */
     main .wrapper form {
         width: 100%;
         line-height: 30px;
@@ -42,7 +45,6 @@
     main .wrapper form input {
         margin-top: 15px;
         margin-bottom: 15px;
-        /*position: relative; */
         align-content: center;
     }
     main .wrapper form select {
